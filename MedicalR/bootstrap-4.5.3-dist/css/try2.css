@@ -1,0 +1,184 @@
+*{
+	box-sizing: border-box;
+}
+.parentDiv {
+  padding: 30px;
+}
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.sidebar a:hover{
+  background-color: #555;
+  color: white;
+}
+
+.container {
+  margin-left: 200px;
+  padding: 1px 20px;
+  height: 100%;
+  width: calc(100% - 200px);
+}
+#single-card{
+	float: left;
+	width: 25%;
+	padding: 20px 10px;
+}
+.row{
+	margin: 30px -5px;
+}
+.row:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+.card-body{
+	background: #fff;
+	border-radius: 5px;
+	box-shadow: 2px 3px 8px rgba(0,0,0,0.3);
+	position: relative;
+	display: flex;
+	flex-direction: column;
+}
+#cf{
+	float: right;
+}
+#cf a{
+	text-decoration: none;
+}
+#cf a:hover{
+	background-color: #555;
+}
+
+#amhead{
+  text-align: center;
+  font-size: 25px;
+}
+#body{
+  background-color: #f1f1f1;
+}
+#hdg{
+  text-align: center;
+  color: blue;
+}
+form{
+  margin-left: 30px;
+  margin-top: 20px;
+}
+#newlink {
+  width:600px;
+}
+.medname input{
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+  border-color: blue;
+  background-color: #f1f1f1;
+}
+.medname input:focus{
+  background-color: white;
+}
+.medname label{
+  font-size: 20px;
+  font-weight: 500;
+}
+input[type=submit]{
+  background-color: #ff66a3 ;
+  width: 100px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+input[type=submit]:hover{
+  background-color: #ff3385;
+}
+input[type=reset]{
+  background-color: #3399ff;
+  width: 100px;
+  border-radius: 8px;
+}
+input[type=reset]:hover{
+  background-color: #0080ff;
+}
+#addnew a{
+  text-decoration: none;
+  color: #1a75ff; 
+}
+#addnew a:hover{
+  background-color: yellow ;
+}
+div a:hover{
+  background-color: red;
+}
+
+
+
+.mrsidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #00e600;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.mrsidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.mrsidebar a:hover{
+  background-color: #555;
+  color: white;
+}
+.mrcontainer {
+  margin-left: 200px;
+  padding: 1px 20px;
+  height: 100%;
+  width: calc(100% - 200px);
+}
+#mr{
+  background-color: #ffd9b3;
+}
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {
+  	float: left;
+  }
+  .container 
+  {
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 100%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+  .container{
+  	width: 100%;
+  }
+}

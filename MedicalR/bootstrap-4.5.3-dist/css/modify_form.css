@@ -1,0 +1,49 @@
+body{
+	background-color: #f1f1f1;
+}
+#hdg{
+	text-align: center;
+	color: blue;
+}
+#modifys form{
+	margin-left: 40px;
+	margin-top: 20px;
+}
+input[type='text']{
+	width: 300px;
+	height: 30px;
+	border-radius: 5px;
+	border-color: blue;
+    background-color: #f1f1f1;
+}
+input[type='text']:focus{
+	background-color: white;
+}
+label{
+	font-size: 20px;
+  font-weight: 500;
+}
+input[type='checkbox']{
+	width: 15px;
+	height: 15px;
+}
+input[name='change1']{
+  background-color: #80ff80 ;
+  width: 100px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+input[name='change1']:hover{
+  background-color: #33ff33;
+}
+input[name='change2']{
+  background-color: #ff66a3 ;
+  width: 100px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+input[type='change2']:hover{
+  background-color: #ff1a75;
+}

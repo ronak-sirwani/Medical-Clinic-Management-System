@@ -1,0 +1,56 @@
+body {
+	/*background-color: #64b5f6;*/
+	height: 100%;
+	width: 100%;
+}
+
+hr {
+	background-image: linear-gradient(to right, red, violet);
+}
+
+.error {
+	border-color: red;
+}
+
+.error-message {
+	color: red;
+}
+
+.container .wrapper {
+
+	width: 60%;
+	height: 100%;
+	margin-right: 20%;
+	margin-left: 20%;
+	margin-top: 5%;
+	margin-bottom: 5%; 
+	/*background-color: #fafafa;*/
+	padding: 35px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px 2px rgba(0, 23, 101, 0.1)!important;
+}
+
+.wrapper-header {
+	padding: 20px;
+
+}
+
+.wrapper label {
+	margin-top: 20px;
+	color: #0d47a1;
+	font-weight: 600;
+}
+
+.btn {
+	width: 100%;
+}
+
+.forgot-password {
+	display: flex;
+	justify-content: center;
+
+}
+
+textarea {
+  	resize: none;
+}

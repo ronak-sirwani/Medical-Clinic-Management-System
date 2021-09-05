@@ -1,0 +1,109 @@
+body{
+  overflow-y: scroll;
+  color: #666;
+}
+
+.logo{
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+  height: 75px;
+  margin-top: 0;
+  width: 100%;
+  padding-top: 15px !important;
+  display: inline-block !important;
+  box-shadow: 0px 5px 10px 0px rgb(0 0 0 / 10%);
+  border-right: 2px solid #e5e5e5;
+  /* position: absolute; */
+  /* z-index: 3; */
+  /* position: relative; */
+  text-decoration : none !important;
+  color: black !important;
+  overflow: hidden;
+
+}
+
+/* Horizontal NAV */
+.Hnav{
+  height: 100%;
+  overflow: hidden;
+}
+
+
+.sidenav {
+	height: 100%;
+	width: 17%;
+	position: fixed;
+	left: 0;
+  padding-left: 0px;
+	z-index: 1;
+	background-color: transparent;
+	box-sizing: border-box;
+  border-right: 2px solid #e5e5e5;
+  margin-top: 0px;
+  overflow: hidden;
+
+}
+
+.sidenav a {
+	text-decoration: none;
+	font-size: 15px;
+	color: grey;
+	display: block;
+	padding: 20px 0px 20px 30px;
+
+}
+
+.sidenav a:hover{
+	color: rgba(153, 161, 168);
+}
+
+
+
+.HT{
+
+  margin-left: 55%;
+  display: inline-block;
+  margin-top: 30px;
+
+
+}
+
+.HT h2{
+
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .sidenav{
+    display: none;
+  }
+	.sidenav a span {
+		display: none;
+
+	}
+
+  .Adnav a{
+    text-decoration: none;
+  	font-size: 15px;
+  	color: white;
+  	display: block;
+  	padding: 20px 0px 20px 30px;
+
+  }
+
+  .Adnav a:hover{
+  	color: rgba(153, 161, 168);
+  }
+}
+
+@media only screen and (min-width: 700px){
+
+  .Adnav{
+    display: none;
+  }
+
+  .Adnav a{
+    display: none;
+  }
+}

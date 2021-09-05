@@ -1,0 +1,328 @@
+table td {
+	vertical-align: unset!important;
+	justify-content: center;
+	align-items: center;
+}
+
+.admin-dashboard {
+	width: 100%;
+	height: 100%;
+}
+
+.admin-dashboard .admin-sidebar {
+	width: 250px;
+	height: 100vh;
+	position: fixed;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+}
+
+.admin-sidebar .admin-profile {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 100%;
+	padding: 15px;
+	border: none;
+}
+
+.admin-profile-pic {
+	width: 75px;
+	height: 75px;
+	border-radius: 50%;
+}
+
+.admin-profile .admin-name h6 {
+	font-weight: 700;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.admin-profile .admin-name {
+	display: flex;
+	flex-direction: column;
+}
+
+.admin-name .admin-activity {
+	display: flex;
+	flex-direction: row;
+	margin-left: 20px;
+}
+
+.admin-name .admin-activity div {
+	width: 6px;
+	height: 6px;
+	margin-top: 8px;
+	margin-right: 10px;
+	background-color: green;
+	border-radius: 50%;
+}
+
+.admin-sidebar hr {
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+.admin-sidebar .admin-functions {
+	width: 100%;
+	/*padding: 15px;*/
+}
+
+.admin-functions ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 15px;
+}
+
+.admin-functions ul li {
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 5px;
+	color: #1e439b;
+	border-radius: 10px;
+	transition: 0.5s ease;
+}
+
+.admin-functions ul li a {
+	color: black;
+	text-decoration: none;
+}
+
+.admin-functions ul li:hover {
+	cursor: pointer;
+	background-color: rgba(30, 67, 155, 0.85);
+	color: white;
+}
+
+.admin-functions ul li i {
+	padding: 15px;
+}
+
+.admin-functions ul li span {
+	margin-left: 10px;
+}
+
+.active-tab {
+	cursor: pointer;
+	background-color: #1e439b;
+	color: white!important;
+	border-radius: 10px;
+}
+
+.active-tab:hover {
+	background-color: #1e439b!important;
+	color: white!important;
+	border-radius: 10px;
+	cursor: pointer;
+}
+#manageUsers {
+	text-decoration: none;
+}
+
+.admin-dash-content {
+	margin-left: 250px;
+}
+
+.navbar-nav li i {
+	padding: 10px;
+	background-color: white;
+	color: black;
+	border-radius: 6px;
+}
+
+.logout-icon {
+	cursor: pointer;
+}
+
+.admin-cards .admin-card {
+	width: 100%;
+	height: 200px;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+	border-radius: 10px;
+}
+
+.admin-pat-card {
+	background: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%) 0% 0% padding-box;
+}
+
+.admin-appoint-card {
+	background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%) 0% 0% padding-box;
+}
+
+.admin-revenue-card {
+	background: linear-gradient(to top, #fddb92 0%, #d1fdff 100%) 0% 0% padding-box;
+}
+
+.admin-card-content {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 85%;
+	justify-content: center;
+	align-items: center;
+}
+
+.admin-card a {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	padding-right: 20px;
+	color: black;
+	font-weight: 700;
+}
+
+.admin-card a span {
+	margin-left: 5px;
+}
+
+.admin-card a:hover {
+	text-decoration: none;
+	color: inherit;
+	transform: scale(1.1);
+	margin-right: 15px;
+	transition: 0.5s;
+}
+
+.admin-table {
+	padding: 10px;
+	margin-top: 50px;
+	transition: 0.5s;
+}
+
+.admin-table .pill{
+	padding: 5px;
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	border-radius: 6px;
+	cursor: pointer;
+}
+
+.admin-filter-option {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.admin-delete i {
+	padding: 10px;
+	color: white;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.admin-delete .bg-info {
+	margin-right: 10px;
+}
+
+#myModal .modal-body {
+    background-color: #f2f2f2 !important;
+}
+
+#myModal .nw {
+    padding: 15px !important;
+}
+
+#myModal .nw label {
+    padding: 12px 12px 12px 0 !important;
+    display: inline-block;
+}
+
+#myModal input[type=text], #myModal input[type=tel], #myModal input[type="email"] {
+    width: 100%;
+    padding: 12px !important;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    margin-bottom: 40px;
+}
+
+#myModal .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+#myModal .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+#myModal .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#myModal .centered{
+   text-align: center !important;
+}
+
+.cards {
+	display: flex;
+	justify-content: space-around;
+}
+
+.reqCards {
+	width: 300px;
+	height: auto;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	border-radius: 10px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.reqCards p {
+	margin: 0!important;
+}
+
+.card-ch {
+	background-color: orange;
+}
+
+.card-mr {
+	background-color: red;
+}
+
+.request {
+	background-color: #f3f3f3;
+	padding: 20px;
+}
+
+.requestHead {
+	font-size: 18;
+	font-weight: bold;
+	display: flex;
+	justify-content: space-between;
+}
+
+.requestContent {
+	font-size: 12px;
+	
+}
+
+#showRequests {
+	transition: 5s ease;
+}
+
+@media screen and (max-width: 768px) {
+	.admin-sidebar {
+		display: none;
+	}
+
+	.admin-dash-content {
+		margin-left: 0;
+	}
+
+	.admin-card {
+		margin-top: 25px;
+	}
+}

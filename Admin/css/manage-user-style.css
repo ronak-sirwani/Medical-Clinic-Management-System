@@ -1,0 +1,65 @@
+.manage-user-heading {
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid #1e439b;
+}
+
+.manage-patient-heading {
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid #1e439b;
+}
+
+.manage-user-heading h3 {
+	width: 20%;
+	background-color: white;
+	color: #1e439b;
+	position: relative;
+	top: 22px;
+}
+
+.manage-patient-heading h3 {
+	width: 22%;
+	background-color: white;
+	color: #1e439b;
+	position: relative;
+	top: 22px;
+}
+
+.manage-user-passw {
+	display: flex;
+	flex-direction: row;
+}
+
+.manage-user-passw i {
+	position: relative;
+	top: 27px;
+	left: 15px;
+	cursor: pointer;
+}
+
+.show-user-heading {
+	display: flex;
+	flex-direction: row;
+	border: none;
+	border-bottom: 1px solid #1e439b;
+}
+
+.show-users {
+	display: flex;
+	flex-direction: row;
+}
+
+.user-select-option {
+	width: 50%;
+}
+
+.show-users button {
+	margin-left: 30px;
+	height: 80%;
+}
+
+.staff-note {
+	color: green;
+	font-weight: 500;
+}

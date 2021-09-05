@@ -1,0 +1,102 @@
+h2 {
+	font-size: 25px;
+	font-weight: 700;
+	color: #0087cb;
+}
+
+h3 {
+	font-size: 20px;
+	font-weight: 700;
+	color: #1e439b;
+	margin-top: 20px;
+}
+
+.navbar-collapse li {
+	margin-left: 30px;
+}
+
+.wrapper-home {
+	height: 90vh;
+	background-image: url("../../assets/images/front-image.jpg");
+	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+.wrapper-home .appoint-div {
+	display: flex;
+	position: relative;
+    top: 50%;
+	justify-content: center;
+	align-items: center;
+}
+
+.wrapper-unique {
+	padding: 30px;
+	width: 100%;
+	height: 100%;
+	margin-top: 30px;
+}
+
+.wrapper-unique .unique-header {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.unique-header p {
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	font-weight: 700;
+}
+
+.our-unique {
+	padding: 30px;
+	margin-top: 30px;
+}
+
+.our-unique-header {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.unique-points {
+	margin-top: 20px;
+}
+
+.unique-points .points-block {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	width: 100%;
+	height: 100%;
+	/*margin-top: 25px;*/
+	box-shadow: 0px 0px 10px 2px rgba(0, 23, 101, 0.1)!important;
+}
+
+.points-block h3, .points-block i {
+	display: flex;
+	justify-content: center;
+}
+
+.points-block i {
+	display: inline-flex;
+	padding: 25px;
+	background-color: #1e439b;
+	color: white;
+	border-radius: 50%;
+}
+
+.points-block p {
+	padding: 10px;
+	font-weight: 700;
+	margin-top: 10px;
+}
